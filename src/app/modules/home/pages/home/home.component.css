@@ -5,7 +5,98 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: auto;
 }
+
+
+.Container-principal {
+  background-color: white;
+  position        : relative;
+  top             : 0vw;
+  left            : 2vw;
+}
+
+table {
+  width: 150%;
+}
+
+.Container-principal {
+  display: flex;
+  padding: 1vw;
+  width  : 70vw;
+  height : 25vw;
+  gap    : 20vw;
+}
+
+th {
+  background-color: #E9EAEC;
+}
+
+.table-secondary {
+  background-color: #E9EAEC;
+}
+
+.regreso {
+  position     : relative;
+  top          : -3vw;
+  left         : 70vw;
+  border-radius: 0.3125rem;
+  border       : 1px solid #003865;
+  background   : rgba(0, 56, 101, 0.15);
+  height       : 1.5vw;
+  width        : 5vw;
+}
+
+.datos-derecha {
+  padding-top: 0vw;
+  height     : 0.5vw;
+}
+
+.agregar {
+  border-radius: 0.3125rem;
+  border       : 1px solid #003865;
+  background   : rgba(0, 56, 101, 0.15);
+  height       : 1.5vw;
+  width        : 5vw;
+  position: relative;
+  left: 9vw;
+}
+
+.eliminar {
+  border-radius: 0.3125rem;
+  border       : 1px solid #003865;
+  background   : rgba(0, 56, 101, 0.15);
+  height       : 1.5vw;
+  width        : 5vw;
+  position: relative;
+  left: 10vw;
+}
+
+.guardar {
+  border-radius: 0.3125rem;
+  border       : 1px solid #003865;
+  background   : rgba(0, 56, 101, 0.15);
+  height       : 1.5vw;
+  width        : 5vw;
+  position     : relative;
+  left         : 69vw;
+  top          : 5vw;
+}
+
+.form-control {
+  border-radius: 0.3125rem;
+  border       : 1px solid #000;
+  width        : 20vw;
+}
+
+.select {
+  border-radius: 0.3125rem;
+  border       : 1px solid #000;
+  width        : 20vw;
+}
+
 
 h1,
 h2,
